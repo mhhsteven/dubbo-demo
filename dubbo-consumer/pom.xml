@@ -97,6 +97,12 @@
 			<artifactId>zkclient</artifactId>
 			<version>0.8</version>
 		</dependency>
+
+		<dependency>
+			<groupId>dubbo-api</groupId>
+			<artifactId>dubbo-api</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
 	</dependencies>
 	<build>
 		<finalName>dubbo-consumer</finalName>
