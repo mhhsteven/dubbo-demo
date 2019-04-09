@@ -49,11 +49,23 @@
 			</resource>
 		</resources>
 	</build>
+	<distributionManagement>
+		<repository>
+			<id>nexus</id>
+			<name>Public Repository</name>
+			<url>http://47.100.9.85/nexus/content/groups/public/</url>
+		</repository>
+		<snapshotRepository>
+			<id>nexus</id>
+			<name>Public Repository</name>
+			<url>http://47.100.9.85/nexus/content/repositories/snapshots/</url>
+		</snapshotRepository>
+	</distributionManagement>
 	<repositories>
 		<repository>
 			<id>nexus</id>
 			<name>my-nexus-repository</name>
-			<url>http://112.124.99.174/nexus/content/groups/public/</url>
+			<url>http://47.100.9.85/nexus/content/groups/public/</url>
 			<releases>
 				<enabled>true</enabled>
 			</releases>
@@ -66,7 +78,7 @@
 		<pluginRepository>
 			<id>nexus</id>
 			<name>my-nexus-repository</name>
-			<url>http://112.124.99.174/nexus/content/groups/public/</url>
+			<url>http://47.100.9.85/nexus/content/groups/public/</url>
 			<releases>
 				<enabled>true</enabled>
 			</releases>
