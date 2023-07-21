@@ -10,7 +10,7 @@
 
     <properties>
 		<spring-boot.version>2.1.1.RELEASE</spring-boot.version>
-		<dubbo.version>2.7.0</dubbo.version>
+		<dubbo.version>2.7.21</dubbo.version>
 		<apache-curator>2.9.0</apache-curator>
     </properties>
 
